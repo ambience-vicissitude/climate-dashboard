@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         <canvas id="${id}-chart"></canvas>
       </div>
     `;
-    grid.addWidget(el);
+    grid.makeWidget(el);
   });
 
   // === 1. Open-Meteo
